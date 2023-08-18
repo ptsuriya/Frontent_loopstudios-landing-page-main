@@ -1,0 +1,60 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+}
+
+body{
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li:first-child {
+    float: left;
+    
+}
+
+nav li {
+    float: right;
+  }
+
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav li a:hover{
+
+}
+.first {
+    position: relative;
+    background: url(./images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover ;
+}
+.first h1{
+    position: absolute;
+    left: 10em;
+    top: 5em;
+    
+}
+.page {
+
+    height: 100dvh;
+}
+
+.third{
+    height: 200dvh;
+}
